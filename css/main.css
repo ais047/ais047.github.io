@@ -570,6 +570,14 @@ body {
   display: block;
   margin-bottom: 3px;
 }
+.ContactRow .quote-wrapper blockquote:after {
+  font-family: 'FontAwesome';
+  content: "\f10e";
+  font-size: 15px;
+  color: #304b61dc;
+  display: block;
+  margin-bottom: 3px;
+}
 @-webkit-keyframes bounce {
   0%,
   20%,
