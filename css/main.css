@@ -425,8 +425,8 @@ body {
   font-family: 'MuseoSans-700', sans-serif;
   font-size: 18px;
   font-variant: small-caps;
-  color: white;
-  opacity: 0;
+  color: grey;
+  opacity: 1;
   letter-spacing: 1px;
   -webkit-transition: all 0.35s ease-in-out 0.1s;
   -moz-transition: all 0.35s ease-in-out 0.1s;
@@ -475,10 +475,12 @@ body {
   height: 0px;
 }
 .ProjRow .square:hover .projImg .scaled-img {
-  opacity: 1;
+  opacity: 0.6;
+  background-color: black;
 }
 .ProjRow .square:hover .projTitle {
   opacity: 1 !important;
+  color: white !important;
   transform: translateY(-20px);
 }
 .ProjRow .square:hover hr {
