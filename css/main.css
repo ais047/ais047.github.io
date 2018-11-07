@@ -84,6 +84,8 @@ body {
   max-width: 1440px;
   margin: auto;
   position: relative;
+  background-color: #f4f4f4;
+  color: #eeeeee;
 }
 .color-text {
   color: #304b61dc;
